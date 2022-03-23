@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+
+  i {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  &_image{
+    background-image: url("../../public/images/header_image.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 30vh;
+  }
+}
