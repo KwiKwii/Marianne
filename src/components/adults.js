@@ -1,5 +1,3 @@
-import React from "react";
-
 const Adults = () => {
     return (
         <ul className="adults">

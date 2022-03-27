@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import {useState} from "react";
 import Adults from "./adults";
 import Children from "./children";
 
@@ -17,6 +17,7 @@ const Menu = () => {
                     htmlFor="children"> <i className="fa-solid fa-caret-down"
                                            onClick={() => setToggleHidden(!toggleHidden)}></i></label></li>
                 <li>Nowości</li>
+                <li>Polecane</li>
                 <li>O nas</li>
             </ul>
         </div>

@@ -1,7 +1,7 @@
 .menu {
   font-size: 1.5rem;
   position: absolute;
-  background-color: antiquewhite;
+  background-color: $main-color;
   width: 100%;
 
   ul {
@@ -9,8 +9,9 @@
 
     li {
       padding: 0.5rem;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid $accent-color;
       display: flex;
+      color: $text-color;
 
       &:last-child {
         border: none;

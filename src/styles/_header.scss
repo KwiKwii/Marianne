@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: space-around;
+  color: $primary-color;
 
   i {
     font-size: 2rem;
@@ -9,10 +10,10 @@
   }
 
   &_image {
-    background-image: url("../../public/images/header_image.jpg");
+    background-image: url("../../public/images/logo.png");
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
+    background-position: center;
+    background-size: contain;
     height: 30vh;
   }
 }
