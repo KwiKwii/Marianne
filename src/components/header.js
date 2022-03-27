@@ -11,14 +11,11 @@ const Header = () => {
             <div className="header">
                 <i className="fa-solid fa-bars" onClick={() => setToggleMenu(!toggleMenu)}></i>
                 <i className="fa-solid fa-magnifying-glass" onClick={() => setToggleSearch(!toggleSearch)}></i>
-                <Link to="/login"><i className="fa-solid fa-user"></i></Link>
-                <i className="fa-solid fa-basket-shopping"></i>
+                <Link to="/login" onClick={() => setToggleMenu(false)}><i className="fa-solid fa-user"></i></Link>
+                <Link to="/basket" onClick={() => setToggleMenu(false)}><i className="fa-solid fa-basket-shopping"></i></Link>
             </div>
             {toggleSearch ? <Serach/> : null}
             {toggleMenu ? <Menu/> : null}
-            <Link to="/">
-                <div className="header_image"/>
-            </Link>
         </>
     )
 }
