@@ -13,7 +13,7 @@ const Menu = () => {
             <div className="menu">
                 <ul>
                     <li><Link to="/" onClick={()=>setToggle(false)}>Strona główna</Link></li>
-                    <li>Kobiety {toggleAdults ? <Adults/> : null} <input type="checkbox" id="adults"/> <label
+                    <li><Link to="/adults" onClick={()=>setToggle(false)}>Kobiety</Link> <div onClick={()=>setToggle(false)}>{toggleAdults ? <Adults/> : null}</div> <input type="checkbox" id="adults"/> <label
                         htmlFor="adults"> <i className="fa-solid fa-caret-down"
                                              onClick={() => setToggleAdults(!toggleAdults)}></i></label>
                     </li>

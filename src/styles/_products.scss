@@ -1,0 +1,32 @@
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product-img {
+  height: 30vh;
+  margin-bottom: 1rem;
+}
+
+.product-description {
+  color: $text-color;
+  width: 80vw;
+  margin-bottom: 1rem;
+}
+
+.product-price {
+  font-size: 1.35rem;
+  color: $text-color;
+  margin-bottom: 1rem;
+}
+
+.product-btn {
+  border: 3px solid $secondary-color;
+  color: $accent-color;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 50px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}

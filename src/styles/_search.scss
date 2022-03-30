@@ -1,5 +1,16 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 64px;
+  position: absolute;
+  background-color: $main-color;
+  width: 100%;
+}
+
 #search {
-  width: 75vw;
+  width: 75%;
+  background-color: $main-color;
   margin: 1rem;
   padding: 0.5rem;
   border: none;

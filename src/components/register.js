@@ -1,6 +1,5 @@
 const Register = () => {
     return (
-        <>
             <form className="register-form">
                 <h1 className="register">Zarejestruj się</h1>
                 <label className="form-email" htmlFor="reg-email">E-mail:</label>
@@ -13,7 +12,6 @@ const Register = () => {
                     <button className="btn-register" type="submit">Zarejestruj się</button>
                 </div>
             </form>
-        </>
     )
 
 }
