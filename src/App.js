@@ -9,6 +9,11 @@ import AdultsDresses from "./components/adultsDresses";
 import AdultsSkirts from "./components/adultsSkirts";
 import AdultsSweatshirts from "./components/adultsSweatshirts";
 import AdultsBlouses from "./components/adultsBlouses";
+import ChildrenSkirts from "./components/childrenSkirts";
+import ChildrenDresses from "./components/childrenDresses";
+import ChildrenSweatshirts from "./components/childrenSweatshirts";
+import ChildrenBlouses from "./components/childrenBlouses";
+import ChildrenHub from "./components/childrenHub";
 
 function App() {
     return (
@@ -38,6 +43,24 @@ function App() {
                 </Route>
                 <Route path="/adultsblouses">
                     <AdultsBlouses/>
+                </Route>
+
+                {/*Dzieci*/}
+
+                <Route path="/children">
+                    <ChildrenHub/>
+                </Route>
+                <Route path="/childrenskirts">
+                    <ChildrenSkirts/>
+                </Route>
+                <Route path="/childrendresses">
+                    <ChildrenDresses/>
+                </Route>
+                <Route path="/childrensweatshirts">
+                    <ChildrenSweatshirts/>
+                </Route>
+                <Route path="/childrenblouses">
+                    <ChildrenBlouses/>
                 </Route>
 
                 {/*Logowanie i rejestracja*/}

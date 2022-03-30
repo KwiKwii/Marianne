@@ -17,7 +17,7 @@ const Menu = () => {
                         htmlFor="adults"> <i className="fa-solid fa-caret-down"
                                              onClick={() => setToggleAdults(!toggleAdults)}></i></label>
                     </li>
-                    <li>Dzieci {toggleChildren ? <Children/> : null} <input type="checkbox" id="children"/> <label
+                    <li><Link to="/children" onClick={()=>setToggle(false)}>Dzieci</Link> <div onClick={()=>setToggle(false)}>{toggleChildren ? <Children/> : null}</div> <input type="checkbox" id="children"/> <label
                         htmlFor="children"> <i className="fa-solid fa-caret-down"
                                                onClick={() => setToggleChildren(!toggleChildren)}></i></label></li>
                     <li>Nowości</li>

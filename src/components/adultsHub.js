@@ -8,17 +8,17 @@ const AdultsHub = () => {
         <div className="adultsHub">
             <h1>Produkty</h1>
             <ProductDress/>
-            <ProductBlouse/>
-            <ProductSweatshirt/>
             <ProductSkirt/>
+            <ProductSweatshirt/>
+            <ProductBlouse/>
             <ProductDress/>
-            <ProductBlouse/>
-            <ProductSweatshirt/>
             <ProductSkirt/>
+            <ProductSweatshirt/>
+            <ProductBlouse/>
             <ProductDress/>
-            <ProductBlouse/>
-            <ProductSweatshirt/>
             <ProductSkirt/>
+            <ProductSweatshirt/>
+            <ProductBlouse/>
         </div>
     )
 }
