@@ -4,3 +4,9 @@
   color: $text-color;
   text-align: center;
 }
+
+@include tablet {
+  .basket-empty {
+    padding-top: 20vh;
+  }
+}

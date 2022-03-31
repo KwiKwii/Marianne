@@ -8,3 +8,13 @@
     margin-top: 1rem;
   }
 }
+
+@include tablet {
+  .adultsHub, .childrenHub {
+    padding-top: 20vh;
+  }
+  .tablet-hub {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

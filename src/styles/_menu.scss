@@ -57,3 +57,16 @@ li {
     height: 25px;
   }
 }
+
+.tablet-ul {
+  display: flex;
+  gap: 1rem;
+  margin-left: 2rem;
+  color: $text-color;
+  background-color: $main-color;
+  padding: 0.5rem;
+}
+
+.active {
+  background-color: $main-color;
+}

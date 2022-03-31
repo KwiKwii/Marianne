@@ -1,24 +1,23 @@
-import ProductSkirtChild from "./productSkirtChild";
-import ProductDressChild from "./productDressChild";
-import ProductBlouseChild from "./productBlouseChild";
-import ProductSweatshirtChild from "./productSweatshirtChild";
+import Product from "./product";
 
 const ChildrenHub = () => {
     return (
         <div className="childrenHub">
             <h1>Produkty</h1>
-            <ProductDressChild/>
-            <ProductSkirtChild/>
-            <ProductSweatshirtChild/>
-            <ProductBlouseChild/>
-            <ProductDressChild/>
-            <ProductSkirtChild/>
-            <ProductSweatshirtChild/>
-            <ProductBlouseChild/>
-            <ProductDressChild/>
-            <ProductSkirtChild/>
-            <ProductSweatshirtChild/>
-            <ProductBlouseChild/>
+            <div className='tablet-hub'>
+                <Product img='images/sukienka-dziecko.jpeg' price='99,99'/>
+                <Product img='images/spódnica-dziecko.jpeg' price='99,99'/>
+                <Product img='images/bluza-dziecko.jpeg' price='99,99'/>
+                <Product img='images/bluzka-dziecko.jpeg' price='99,99'/>
+                <Product img='images/sukienka-dziecko.jpeg' price='99,99'/>
+                <Product img='images/spódnica-dziecko.jpeg' price='99,99'/>
+                <Product img='images/bluza-dziecko.jpeg' price='99,99'/>
+                <Product img='images/bluzka-dziecko.jpeg' price='99,99'/>
+                <Product img='images/sukienka-dziecko.jpeg' price='99,99'/>
+                <Product img='images/spódnica-dziecko.jpeg' price='99,99'/>
+                <Product img='images/bluza-dziecko.jpeg' price='99,99'/>
+                <Product img='images/bluzka-dziecko.jpeg' price='99,99'/>
+            </div>
         </div>
     )
 }

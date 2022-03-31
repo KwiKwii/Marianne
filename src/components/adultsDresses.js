@@ -1,12 +1,14 @@
-import ProductDress from "./productDress";
+import Product from "./product";
 
 const AdultsDresses = () => {
     return (
-        <div className="adultsDresses">
+        <div className="adultsProduct">
             <h1>Sukienki</h1>
-            <ProductDress/>
-            <ProductDress/>
-            <ProductDress/>
+            <div className="tabletProduct">
+                <Product img='images/sukienka.jpeg' price='99,99'/>
+                <Product img='images/sukienka.jpeg' price='99,99'/>
+                <Product img='images/sukienka.jpeg' price='99,99'/>
+            </div>
         </div>
     )
 }

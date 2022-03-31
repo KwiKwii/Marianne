@@ -30,3 +30,13 @@
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
+
+@include tablet {
+  .product {
+    width: 47vw;
+    margin-left: 1rem;
+  }
+  .product-description {
+    width: 45vw;
+  }
+}
